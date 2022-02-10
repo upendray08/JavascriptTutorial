@@ -1,0 +1,18 @@
+javascript code run in javascript run time environment 
+javascript engine is the heart of javascript run time environment
+javascript engine is diff in diff browser and nodejs etc 
+javascript engine consist of diff phases 
+1. parsing 
+2. complilation
+3. execution
+
+parsing --> it is a phase in which code is converted into tokens and then it is arrange in AST abstract systax Tree 
+this AST
+compilation --> this AST then passes through a interprettor js has a interprettor --> meaning which run the 
+code line by line and then execute 
+execution --> this interprettor converte the AST into bytecode and this bytecode then execute using execution and 
+memory heap and call stack 
+interprettor code also passes through complier which compile the code to optimize machine code 
+and then this machine code converted to bytecode and then execute. 
+this technique of interprettor and complilation of AST side by side is called Just in time compilation (JIT)
+compilation 
