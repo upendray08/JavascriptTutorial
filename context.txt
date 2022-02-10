@@ -1,0 +1,11 @@
+execution context 
+global execution context 
+local execution context 
+there are two phase 
+memory creation / variable environment 
+user:undefined
+func1:{--------}
+code execution /thread of execution 
+line by line code execute 
+what is why ?
+javascript is a synchorous and single threaded langugue

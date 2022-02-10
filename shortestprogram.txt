@@ -1,0 +1,4 @@
+// console.log(window);
+empty file is shortest program in javascript 
+window is object in browser which is a global object 
+this is a keyword which is associated with a global object 
