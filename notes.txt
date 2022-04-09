@@ -1,0 +1,11 @@
+javascript is loosely type languague 
+javascript is like mostly famous 
+javascript is flexible languague 
+if execution context + lexical environment 
+lexical environment me hume ek pointer 
+this pointer point the physical parent of his 
+scope chain::
+is nothing but the way of finding object in lexical environment and its reference to its parent 
+lexical environment :: is local memory and reference to its lexical environment of its
+parent(lexical parent actually function sit inside the parent physical )
+Scope chain :: is a wholechain of lexical environment 
