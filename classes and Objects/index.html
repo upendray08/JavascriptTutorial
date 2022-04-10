@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <script>
+      var User = {
+        name: '',
+        getUsername: function () {
+          console.log(`User name is : ${name}`)
+        },
+      }
+      var upendra = Object.create(User, {
+        name: { value: 'upendra' },
+        age: { value: 22 },
+      })
+      var nitesh = Object.create(User, {
+        name: { value: 'nitesh' },
+        age: { value: 16 },
+      })
+      console.log(nitesh)
+      console.log(upendra)
+    </script>
+  </body>
+</html>

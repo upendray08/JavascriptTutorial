@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prototypes</title>
+  </head>
+  <body>
+    <script>
+      //   var myname = (firstname, len) => {
+      //     console.log(`${firstname} and ${len}`)
+      //   }
+      //   myname('upendra', 4)
+      let mydetail = {
+        name: 'upendra',
+        // age: 22,
+        address: 'indira nagar',
+        married: 'Single',
+      }
+      if (mydetail.hasOwnProperty('address')) {
+        console.log(mydetail.address)
+      } else {
+        console.log('age keyword is not present')
+      }
+    </script>
+  </body>
+</html>
